@@ -1,0 +1,53 @@
+	 3. customer 
+	 4. part 
+	 5. partsupp 
+	 6. supplier 
+	 7. orders 
+	 8. lineitem 
+ 	 
+ specify sort ordering (when done press ctrl-D):
+(n_regionkey)
+****************************************************************************************************************************************************************************************
+n_nationkey: [23], n_name: [UNITED KINGDOM], n_regionkey: [3], n_comment: [eans boost carefully special requests. accounts are. carefull]
+n_nationkey: [11], n_name: [IRAQ], n_regionkey: [4], n_comment: [nic deposits boost atop the quickly final requests? quickly regula]
+n_nationkey: [10], n_name: [IRAN], n_regionkey: [4], n_comment: [efully alongside of the slyly final dependencies. ]
+n_nationkey: [13], n_name: [JORDAN], n_regionkey: [4], n_comment: [ic deposits are blithely about the carefully regular pa]
+n_nationkey: [20], n_name: [SAUDI ARABIA], n_regionkey: [4], n_comment: [ts. silent requests haggle. closely express packages sleep across the blithely]
+n_nationkey: [4], n_name: [EGYPT], n_regionkey: [4], n_comment: [y above the carefully unusual theodolites. final dugouts are quickly across the furiously regular d]
+
+ scanned 25 recs 
+
+
+****************************************************************************************************************************************************************************************
+	 3. customer 
+	 4. part 
+	 5. partsupp 
+	 6. supplier 
+	 7. orders 
+	 8. lineitem 
+ 	 
+ specify sort ordering (when done press ctrl-D):
+(c_phone)
+****************************************************************************************************************************************************************************************
+c_custkey: [35478], c_name: [Customer#000035478], c_address: [Ot5zcyiiLhzXXivX4Y2FeToQIh,iovs6zyA], c_nationkey: [24], c_phone: [34-999-379-6016], c_acctbal: [6097.18], c_mktsegment: [MACHINERY], c_comment: [ithout the fluffily ironic packages. daring, even de]
+c_custkey: [103505], c_name: [Customer#000103505], c_address: [XPNXpdCD7HRqcV8ABpjF3ixDc9A6X ZB2 ], c_nationkey: [24], c_phone: [34-999-404-9770], c_acctbal: [582.88], c_mktsegment: [FURNITURE], c_comment: [fully even deposits boost. quickly ironic requests could have to are according to the final accounts. final]
+c_custkey: [62707], c_name: [Customer#000062707], c_address: [bRbtSTIXhh], c_nationkey: [24], c_phone: [34-999-473-9448], c_acctbal: [7429.32], c_mktsegment: [FURNITURE], c_comment: [zzle slyly after the slyly ironic pinto beans. bold, fina]
+c_custkey: [41774], c_name: [Customer#000041774], c_address: [DpHfJFKVkr4LQeif9t5SSKzDUa4G3asKeya5M7dz], c_nationkey: [24], c_phone: [34-999-535-1203], c_acctbal: [7118.29], c_mktsegment: [FURNITURE], c_comment: [c requests sleep. quickly silent requests wake fluffily. furiously close packages nag furiously across the caref]
+c_custkey: [94308], c_name: [Customer#000094308], c_address: [5aE9PLelngeVg8v6KCgOyR,NhDT5uC4], c_nationkey: [24], c_phone: [34-999-618-6653], c_acctbal: [8636.13], c_mktsegment: [FURNITURE], c_comment: [g, even deposits. carefully unus]
+c_custkey: [102414], c_name: [Customer#000102414], c_address: [Xzg9eiWbsxiQW,LUCyUAcPoOENdLUQt], c_nationkey: [24], c_phone: [34-999-618-6881], c_acctbal: [9614.62], c_mktsegment: [MACHINERY], c_comment: [usly final packages. carefully even packages by the permanently special gifts ne]
+
+ scanned 150000 recs 
+
+
+****************************************************************************************************************************************************************************************
+ 	 
+ enter CNF predicate (when done press ctrl-D):
+	c_custkey: [103505], c_name: [Customer#000103505], c_address: [XPNXpdCD7HRqcV8ABpjF3ixDc9A6X ZB2 ], c_nationkey: [24], c_phone: [34-999-404-9770], c_acctbal: [582.88], c_mktsegment: [FURNITURE], c_comment: [fully even deposits boost. quickly ironic requests could have to are according to the final accounts. final]
+c_custkey: [62707], c_name: [Customer#000062707], c_address: [bRbtSTIXhh], c_nationkey: [24], c_phone: [34-999-473-9448], c_acctbal: [7429.32], c_mktsegment: [FURNITURE], c_comment: [zzle slyly after the slyly ironic pinto beans. bold, fina]
+c_custkey: [41774], c_name: [Customer#000041774], c_address: [DpHfJFKVkr4LQeif9t5SSKzDUa4G3asKeya5M7dz], c_nationkey: [24], c_phone: [34-999-535-1203], c_acctbal: [7118.29], c_mktsegment: [FURNITURE], c_comment: [c requests sleep. quickly silent requests wake fluffily. furiously close packages nag furiously across the caref]
+c_custkey: [94308], c_name: [Customer#000094308], c_address: [5aE9PLelngeVg8v6KCgOyR,NhDT5uC4], c_nationkey: [24], c_phone: [34-999-618-6653], c_acctbal: [8636.13], c_mktsegment: [FURNITURE], c_comment: [g, even deposits. carefully unus]
+
+ query over customer.bin returned 4 recs
+
+
+****************************************************************************************************************************************************************************************
